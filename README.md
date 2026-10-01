@@ -1,4 +1,4 @@
-![VITO Urban Climate Simulator Logo](./assets/vito_logo.png)
+![VITO Urban Climate Simulator Logo](./assets/logo.png)
 
 # UrbClim | URBREATH urban climate datasets
 
