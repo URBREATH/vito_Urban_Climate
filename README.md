@@ -52,7 +52,7 @@ Typical products include:
 - **10 m**: statistically downscaled indicator maps for detailed city-scale visualisation;
 - **1 m** :**HighREx** Our very high resolution physical model can produce WBGT maps for selected extreme hot days where detailed local data are available.
 
-The map below shows example at different resolutions for Madrid.
+The maps below shows examples at different resolutions for Madrid.
 
 ![Madrid WBGT map 1m resolution](./assets/01_madrid_wbgt_150m_to_1m.png)
 
@@ -71,6 +71,8 @@ This makes it possible to identify where proposed measures have the strongest in
 The Madrid package illustrates the range of spatial products that can be prepared from the URBREATH urban-climate workflow. It includes climate-period heat indicators, present/future layers with associated adaptation scenarios, and detailed WBGT maps.
 
 The products are designed for municipal GIS and geoportal use: identifying heat hotspots, comparing neighbourhoods, assessing future conditions and supporting adaptation planning.
+
+The map below is an example of a 1m resolution HighRex map of WBGT in Madrid.
 
 ![Madrid WBGT map 1m resolution](./assets/max_wbgt_2024-08-03_1m.png)
 
