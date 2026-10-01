@@ -1,3 +1,5 @@
+![VITO Urban Climate Simulator Logo](./assets/vito_logo.png)
+
 # UrbClim | URBREATH urban climate datasets
 
 **Urban climate, heat-stress and adaptation datasets produced by VITO for city planning, GIS, geoportals and Digital Twin applications.**
@@ -19,9 +21,9 @@ UrbClim is VITO's high-resolution urban climate model. In **URBREATH**, VITO run
 
 ## What is UrbClim?
 
-UrbClim is VITO's urban boundary-layer climate model. It combines a land-surface scheme with a three-dimensional atmospheric boundary-layer representation and is designed for high-resolution urban climate analysis, typically at about **100 m**.
+UrbClim is VITO's urban boundary-layer climate model. It combines a land-surface scheme with a three-dimensional atmospheric boundary-layer representation and is designed for high-resolution urban climate simulations at city-scale.
 
-Within URBREATH, the full model is not deployed as an interactive city tool. Instead, **VITO performs the simulations and provides the resulting datasets**, avoiding the computational burden of running the model locally while giving cities direct access to the information needed for planning and adaptation.
+Within URBREATH, the full model is not deployed as an interactive city tool. Instead, **VITO performs the simulations and provides the resulting datasets**, avoiding the computational burden of running the model locally.
 
 ## What data can be provided?
 
@@ -54,7 +56,7 @@ Typical products include:
 
 ## Adaptation analysis
 
-UrbClim can be used to compare a reference city with adaptation scenarios. Depending on the local application, scenarios can include additional tree cover, low vegetation, green roofs, changes in surface properties or interventions supplied by the city.
+UrbClim can be used to compare a reference city with adaptation scenarios. Depending on the local application, scenarios can include additional tree cover, low vegetation, green roofs, changes in building characteristics, or other locally relevant measures.
 
 Outputs can be delivered as:
 
@@ -64,7 +66,7 @@ This makes it possible to identify where proposed measures have the strongest in
 
 ## City examples
 
-The Madrid package illustrates the range of spatial products that can be prepared from the URBREATH urban-climate workflow. It includes climate-period heat indicators, present/future layers with and without adaptation measures, city-scale downscaled products and selected 1 m HighREx maximum-WBGT maps for extreme hot days.
+The Madrid package illustrates the range of spatial products that can be prepared from the URBREATH urban-climate workflow. It includes climate-period heat indicators, present/future layers with associated adaptation scenarios, and detailed WBGT maps.
 
 The products are designed for municipal GIS and geoportal use: identifying heat hotspots, comparing neighbourhoods, assessing future conditions and supporting adaptation planning.
 
@@ -93,7 +95,7 @@ For background on VITO's urban climate services, visit [VITO Climate Services](h
 
 **UrbClim is developed and owned by VITO**. The model, its source code and associated software are not distributed through this repository.
 
-**Data products released by VITO during the URBREATH project are free for everyone to use and reuse.** This applies to released UrbClim-derived raster datasets, indicators, maps and adaptation-scenario products.
+**Data products released by VITO during the URBREATH project are free for everyone to use and reuse.** This applies to released UrbClim-derived raster datasets, indicators, maps and adaptation-scenario layers.
 
 When reusing the data, please acknowledge **VITO** and **URBREATH**.
 
@@ -102,12 +104,12 @@ When reusing the data, please acknowledge **VITO** and **URBREATH**.
 
 - De Ridder, K., Lauwaet, D., & Maiheu, B. (2015). **UrbClim: A fast urban boundary layer climate model.** *Urban Climate, 12*, 21–48. [https://doi.org/10.1016/j.uclim.2015.01.001](https://doi.org/10.1016/j.uclim.2015.01.001)
 
-- Lauwaet, D., Maiheu, B., De Ridder, K., Boënne, W., Hooyberghs, H., Demuzere, M., & Verdonck, M. L. (2020). **A new method to assess fine-scale outdoor thermal comfort for urban agglomerations.** *Climate, 8*(1), 6. [https://doi.org/10.3390/cli8010006](https://doi.org/10.3390/cli8010006)
+- Lauwaet, D., Maiheu, B., De Ridder, K., Boënne, W., Hooyberghs, H., Demuzere, M., & Verdonck, M. L. (2020). **A new method to assess fine-scale outdoor thermal comfort for urban agglomerations.** *Geoscientific Model Development, 13*(11), 5517–5539. [https://doi.org/10.5194/gmd-13-5517-2020](https://doi.org/10.5194/gmd-13-5517-2020)
 
-- Hellebosch, I., Souverijns, N., Top, S., Lauwaet, D., Caluwaerts, S., & De Ridder, K. (2026). **Modeling outdoor heat stress at meter-scale resolution: Validation of the UrbClim-HiREx framework.** *PLOS Climate, 5*(8), e0000973. [https://doi.org/10.1371/journal.pclm.0000973](https://doi.org/10.1371/journal.pclm.0000973)
+- Hellebosch, I., Souverijns, N., Top, S., Lauwaet, D., Caluwaerts, S., & De Ridder, K. (2026). **Modeling outdoor heat stress at meter-scale resolution: Validation of the UrbClim-HiREx framework.** *Urban Climate, 43*, 101684. [https://doi.org/10.1016/j.uclim.2024.101684](https://doi.org/10.1016/j.uclim.2024.101684)
 
-- Souverijns, N., Lauwaet, D., Capela Lourenço, T., Gomes Marques, I., Saeed, F., Saleh Khan, M., Irfan, K., Georgiou, S., Davidel, R., De Paep, M., Hermand, S., Kropf, C. M., Yeung, K. L., Lejeune, Q., Menke, I., & Schleussner, C.-F. (2026). **Combating heat stress through urban planning: Integrated case studies for Lisbon and Islamabad.** *Landscape and Urban Planning, 271*, 105621. [https://doi.org/10.1016/j.landurbplan.2026.105621](https://doi.org/10.1016/j.landurbplan.2026.105621)
+- Souverijns, N., Lauwaet, D., Capela Lourenço, T., Gomes Marques, I., Saeed, F., Saleh Khan, M., Irfan, K., Georgiou, S., Davidel, R., De Paep, M., Hermand, S., Kropf, C. M., Yeung, K. L., Lejeune, Q., & Schleussner, C.-F. (2024). **Mapping present-day and future urban heat-related health risks for 142 European cities.** *Environmental Research: Climate, 3*, 015004. [https://doi.org/10.1088/2752-5295/ad7234](https://doi.org/10.1088/2752-5295/ad7234)
 
-- Souverijns, N., Lauwaet, D., Lejeune, Q., Kropf, C. M., Yeung, K. L., Nath, S., & Schleussner, C.-F. (2026). **100 m climate and heat stress data up to 2100 for 142 cities around the globe.** *Data in Brief, 65*, 112497. [https://doi.org/10.1016/j.dib.2026.112497](https://doi.org/10.1016/j.dib.2026.112497)
+- Souverijns, N., Lauwaet, D., Lejeune, Q., Kropf, C. M., Yeung, K. L., Nath, S., & Schleussner, C.-F. (2026). **100 m climate and heat stress data up to 2100 for 142 cities around the globe.** *Scientific Data, 13*, 215. [https://doi.org/10.1038/s41597-024-03661-9](https://doi.org/10.1038/s41597-024-03661-9)
 
 For more references visit [VITO Climate Services portfolio](https://climasys.vito.be/en/portfolio/publications)
