@@ -52,7 +52,9 @@ Typical products include:
 - **10 m**: statistically downscaled indicator maps for detailed city-scale visualisation;
 - **1 m** :**HighREx** Our very high resolution physical model can produce WBGT maps for selected extreme hot days where detailed local data are available.
 
+The map below shows example at different resolutions for Madrid.
 
+![Madrid WBGT map 1m resolution](./assets/01_madrid_wbgt_150m_to_1m.png)
 
 ## Adaptation analysis
 
