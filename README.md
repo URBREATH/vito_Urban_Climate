@@ -70,6 +70,8 @@ The Madrid package illustrates the range of spatial products that can be prepare
 
 The products are designed for municipal GIS and geoportal use: identifying heat hotspots, comparing neighbourhoods, assessing future conditions and supporting adaptation planning.
 
+![Madrid WBGT map 1m resolution](./assets/max_wbgt_2024-08-03_1m.png)
+
 ## Typical workflow
 
 ```mermaid
